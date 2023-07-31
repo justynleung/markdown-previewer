@@ -9,6 +9,7 @@ const Textarea = styled.textarea`
 height: 100%;
 width:99%;
 border:none;
+border-right: 2px gray solid;
 `
 interface Props {
     text: string
