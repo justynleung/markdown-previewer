@@ -8,9 +8,8 @@ const ContainerCol = styled.div`
 
   text-align:left;
 `
-const Textarea = styled.div.attrs({
-    className: "markdown",
-})`
+
+const Wrapper = styled.div`
     height: 100%;
     width:99%;
     border:none;
@@ -24,7 +23,9 @@ interface Props {
 export default function MarkdownOutput(props: Props) {
     return (
         <ContainerCol>
-            <ReactMarkdown className="markdown">{props.text}</ReactMarkdown>
+            <Wrapper>
+                <ReactMarkdown>{props.text}</ReactMarkdown>
+            </Wrapper>
         </ContainerCol>
     )
 }
