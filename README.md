@@ -9,6 +9,10 @@
 </ul>
 
 <h2>Functionalities</h2>
-<p>The app consist of a markdown previewer with a toggle cheat sheet</p><br>
-<p>The toggling of the cheat sheet is acheived by useState and conditional rendering of react components.</p><br>
-<p>The markdown previewer utilized the react-markdown library. The output is in sync with the input through react state management.</p><br>
+<p>This application comes with a markdown previewer and a cheatsheet. User can toggle to show or hide the cheatsheet. User inputs will turned to output base of the rules. The conversion of text is achieved by react-markdown library.</p>
+
+<h2>Technologies used</h2>
+<p>Typescript is used throughout the projects. Styled components is used for easy tracking in production.</p>
+
+
+
