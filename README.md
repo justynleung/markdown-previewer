@@ -1,5 +1,5 @@
 <h1>A Markdown Previewer Applcation</h1>
-<a href="https://jocular-croissant-384e4f.netlify.app/">Link Here</a>
+<a href="https://jocular-croissant-384e4f.netlify.app/">Click Me!</a>
 
 <h2>Tech stacks</h2>
 <ul>
